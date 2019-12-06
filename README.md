@@ -1,12 +1,8 @@
 # Gray-Scott-Simulation
 
-The purpose of this repository is to provide a didactic example of a numerical solution of a Gray-Scott reaction-diffusion system. The code included here was implemented in Python avalible on "????.py" or in colab link:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ABenatti/Gray-Scott-Simulation/blob/master/Gray_Scott_simulation.ipynb)
-
-
+The purpose of this repository is to provide a didactic example of a numerical solution of a Gray-Scott reaction-diffusion system. The code included here was implemented in Python avalible on "gray_scott_simulation.py" and in colab link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ABenatti/Gray-Scott-Simulation/blob/master/Gray_Scott_simulation.ipynb)
 
 The ray-Scott reaction-diffusion system can be mathematically expressed by following differential equation:
-
-
 
 
 
