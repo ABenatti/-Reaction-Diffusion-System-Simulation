@@ -8,7 +8,7 @@ The ray-Scott reaction-diffusion system can be mathematically expressed by follo
 ![](https://latex.codecogs.com/gif.latex?\frac{\partial&space;u}{\partial&space;t}&space;=&space;D_u&space;\nabla^2&space;u&space;-&space;uv^2&space;&plus;&space;F(1-u))
 
 
-![](https://latex.codecogs.com/gif.latex?\frac{\partial&space;V}{\partial&space;t}&space;=&space;D_v&space;\nabla^2&space;v&space;&plus;&space;uv^2&space;-&space;(F&plus;k)v)
+![](https://latex.codecogs.com/gif.latex?\frac{\partial&space;v}{\partial&space;t}&space;=&space;D_v&space;\nabla^2&space;v&space;&plus;&space;uv^2&space;-&space;(F&plus;k)v,)
 
 ![](./image.png)
 
