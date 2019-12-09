@@ -9,22 +9,10 @@ Original file is located at
 # Gray-Scott Reaction Simulation
 """
 
-#Gray-Scott Simulation
-
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import convolve2d
 
-
-#parameters setting
-F = 0.02                #feed rate
-k = 0.052               #kill rate
-
-Du, Dv = 0.16, 0.08     #diffusion coefficients
-L = 252                 #fig dimention
-
-
-maske = np.array([[0, 1, 0], [1, -4, 1], [0, 1, 0]])
 
 def du_dt(f):
     df = Du*convolve2d(f, maske, mode="same") - v*v*u + F*(1.0 - u)
@@ -34,6 +22,17 @@ def dv_dt(f):
     df = Dv*convolve2d(f, maske, mode="same") + v*v*u - (F+k)*v
     return df
 
+maske = np.array([[0, 1, 0], 
+                  [1, -4, 1], 
+                  [0, 1, 0]])
+
+
+#parameters setting
+F = 0.02                #feed rate
+k = 0.052               #kill rate
+
+Du, Dv = 0.16, 0.08     #diffusion coefficients
+L = 252                 #fig dimention
 
 u = np.zeros((L, L))
 u2 = np.zeros((L, L))
