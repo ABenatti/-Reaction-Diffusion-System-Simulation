@@ -58,3 +58,4 @@ for i in range(iterations):
 fig, ax = plt.subplots()
 ax.imshow(v, cmap= 'gist_heat')
 ax.set_axis_off()
+plt.show()
