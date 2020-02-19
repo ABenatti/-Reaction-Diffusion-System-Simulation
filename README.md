@@ -16,7 +16,7 @@ The ray-Scott reaction-diffusion system can be mathematically expressed by follo
 
 # Belousov-Zhabotinsky Simulation
 
-Simulation colab link: [![Open In Colab](link????)
+Simulation colab link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ABenatti/-Reaction-Diffusion-System-Simulation/blob/master/Belousov_Zhabotinsky_simulation.ipynb)
 
 A comun simplification of Belousov-Zhabotinsky reaction is expressed by following differential equation:
 
