@@ -4,7 +4,7 @@ The purpose of this repository is to provide didactic examples of numerical solu
 
 Simulation colab link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ABenatti/Gray-Scott-Simulation/blob/master/Gray_Scott_simulation.ipynb)
 
-The ray-Scott reaction-diffusion system can be mathematically expressed by following differential equation:
+The Gray-Scott reaction-diffusion system can be mathematically expressed by following differential equation:
 
 
 ![](https://latex.codecogs.com/gif.latex?\frac{\partial&space;u}{\partial&space;t}&space;=&space;D_u&space;\nabla^2&space;u&space;-&space;uv^2&space;&plus;&space;F(1-u))
@@ -30,7 +30,7 @@ A comun simplification of Belousov-Zhabotinsky reaction is expressed by followin
 
 ## License
 
-This Deep Learning Tutorial is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0) International License.
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0) International License.
 
 ## Acknowledgments
 Alexandre Benatti thanks Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Finance Code 001. Luciano da F. Costa thanks CNPq (grant no. 307085/2018-0) and NAP-PRP-USP for sponsorship. This work has been supported also by FAPESP grants 11/50761-2 and 2015/22308-2.
